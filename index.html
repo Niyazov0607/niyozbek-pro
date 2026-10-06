@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIYOZBEK Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="nav">
+      <div class="container nav__wrapper">
+        <a href="#top" class="nav__logo">Niyoz<span class="dot">.</span></a>
+
+        <nav class="nav__lists" id="navLinks">
+          <a href="#about"><span class="num">01</span> Men haqimda</a>
+          <a href="#family"><span class="num">02</span> Oilam</a>
+          <a href="#group"><span class="num">03</span> Guruhim</a>
+          <a href="#projects"><span class="num">04</span> Loyihalar</a>
+          <a href="#contact"><span class="num">05</span> Aloqa</a>
+        </nav>
+
+        <button class="burger" id="burgerBtn" aria-label="menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__wrapper">
+          <div class="hero__copy">
+            <p class="hero__eyebrow">// PDP Junior &middot; Tashkent</p>
+            <h1 class="hero__title">
+              Salom, men<br />
+              <span class="hero__title-big">NIYOZBEK</span>
+            </h1>
+            <p class="hero__desc">
+              13 yoshli kelajak frontend dasturchisi. Sayt yasashni, va
+              g'oyalarni hayotga tatbiq etishni sevaman.
+            </p>
+            <div class="hero__cta">
+              <a href="#about" class="btn btn--primary">
+                Meni tanish <span class="arrow">РІвЂ вЂ™</span>
+              </a>
+              <a href="#projects" class="btn btn--ghost">Loyihalarim</a>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero__frame">
+              <img src="./men.jpg" alt="Niyoz" />
+            </div>
+            <div class="hero__badge hero__badge--1">
+              СЂСџТђР‰ kikboksing fan
+            </div>
+            <div class="hero__badge hero__badge--2">3 oy &middot; PDP</div>
+            <div class="hero__shape hero__shape--1"></div>
+            <div class="hero__shape hero__shape--2"></div>
+          </div>
+        </div>
+
+        <div class="marquee">
+          <div class="marquee__track">
+            <span
+              >FRONTEND &middot; HTML &middot; CSS &middot; JAVASCRIPT &middot;
+              KELAJAK DASTURCHI &middot;</span
+            >
+            <span
+              >FRONTEND &middot; HTML &middot; CSS &middot; JAVASCRIPT &middot;
+              KELAJAK DASTURCHI &middot;</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="section-num">01</span> Men haqimda
+          </h2>
+
+          <div class="about__grid">
+            <div class="about__photo">
+              <img src="./men.jpg" alt="Niyoz" />
+              <div class="about__photo-tag">28.03.2013 yil tug'ilgan</div>
+            </div>
+
+            <div class="about__facts">
+              <p class="about__lead">
+                Salom! Ismim <strong>Muhammadali</strong>, 282-maktab 8-d sinf
+                o'quvchisiman. PDP Juniorda <strong>3 oydan beri</strong>
+                dasturlashni o'rganaman va kelajakda professional dasturchi
+                bo'lishni orzu qilaman.
+              </p>
+
+              <ul class="fact-list">
+                <li>
+                  <div>
+                    <b>Tug'ilgan sana</b>
+                    <p>28.03.2013</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <b>Maktab</b>
+                    <p>282-maktab, 8-d sinf</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <b>Hozir o'rganyapman</b>
+                    <p>Sayt yasash РІР‚вЂќ HTML, CSS, JS</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <b>Sevimli mashg'ulot</b>
+                    <p>kikboksing</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <b>Orzu</b>
+                    <p>Kelajakda yaxshi dasturchi bo'lish</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="family" id="family">
+        <div class="container">
+          <h2 class="section-title section-title--light">
+            <span class="section-num">02</span> Mening oilam
+          </h2>
+          <p class="section-sub">
+            Biz oilada 5 kishi yashaymiz РІР‚вЂќ dadam, onam, akam singlim(3) va
+            men.
+          </p>
+
+          <div class="family-carousel-wrapper">
+            <div class="slider-track family-track" aria-label="Oila a'zolari">
+              <div class="card family-card">
+                <img src="./dadam.jpg" alt="Dadam" />
+                <div class="family-card-info">
+                  <h3>dadam</h3>
+                  <span class="fam-role">Dadam Р’В·50 yosh</span>
+                  <p>stabilizator chixarish kompaniyada ishlaydi</p>
+                </div>
+              </div>
+
+              <div class="card family-card">
+                <img src="./oym.jpg" alt="Oyim" />
+                <div class="family-card-info">
+                  <h3>ozda</h3>
+                  <span class="fam-role">Oyim Р’В· 33 yosh</span>
+                  <p>stroyka company</p>
+                </div>
+              </div>
+
+              <div class="card family-card">
+                <img src="./men.jpg" alt="Men" />
+                <div class="family-card-info">
+                  <h3>NIYOZBEK</h3>
+                  <span class="fam-role">Men Р’В· 13 yosh</span>
+                  <p>Hali maktabka boraman</p>
+                </div>
+              </div>
+
+              <div class="card family-card">
+                <img src="./singlim.jpg" alt="singlim" />
+                <div class="family-card-info">
+                  <h3>singlim</h3>
+                  <span class="fam-role">singlim Р’В· 11 yosh</span>
+                  <p>hali makabta</p>
+                </div>
+              </div>
+
+              <div class="card family-card">
+                <img src="./akm.jpg" alt="kam" />
+                <div class="family-card-info">
+                  <h3>akam</h3>
+                  <span class="fam-role">akam Р’В· 13 yosh</span>
+                  <p>endi maktabga chiqti</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button
+                class="carousel-btn"
+                data-slider="family-track"
+                data-direction="-1"
+                aria-label="Oilamni chapga surish"
+              >
+                ‹
+              </button>
+              <span class="slider-hint">Surish uchun bosing yoki suring</span>
+              <button
+                class="carousel-btn"
+                data-slider="family-track"
+                data-direction="1"
+                aria-label="Oilamni o'ngga surish"
+              >
+                ›
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="group" id="group">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="section-num">03</span> Mening guruhim
+          </h2>
+          <p class="section-sub">PDP Junior'dagi ajoyib guruhdoshlarim.</p>
+
+          <div class="group__carousel-wrapper">
+            <div class="group-slider">
+              <div
+                class="group-track"
+                aria-label="Guruhdoshlar"
+                aria-live="polite"
+              >
+                <div
+                  class="item"
+                  style="background-image: url(&quot;./obdul hamit.jpg&quot;)"
+                >
+                  <div class="item-content">
+                    <h3>Abdulhamid</h3>
+                  </div>
+                </div>
+                <div class="item" style="background-image: url(./shaxina.jpg)">
+                  <div class="item-content">
+                    <h3>Shaxina</h3>
+                  </div>
+                </div>
+                <div
+                  class="item"
+                  style="background-image: url(./davlatbek.jpg)"
+                >
+                  <div class="item-content">
+                    <h3>Davlatbek</h3>
+                  </div>
+                </div>
+                <div
+                  class="item"
+                  style="background-image: url(./salohidin.jpg)"
+                >
+                  <div class="item-content">
+                    <h3>Salohidin</h3>
+                  </div>
+                </div>
+                <div class="item" style="background-image: url(./yusuf.jpg)">
+                  <div class="item-content">
+                    <h3>Yusuf</h3>
+                  </div>
+                </div>
+                <div class="item" style="background-image: url(./akbar.jpg)">
+                  <div class="item-content">
+                    <h3>AkbarShoh</h3>
+                  </div>
+                </div>
+                <div
+                  class="item item--humoyun"
+                  style="background-image: url(./huyomun.jpg)"
+                >
+                  <div class="item-content">
+                    <h3>Humoyun</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="group-slider-footer">
+                <div class="group-pagination" aria-label="Guruhdoshlar soni">
+                  <span class="group-current">01</span
+                  ><span class="group-progress"><i></i></span
+                  ><span class="group-total">07</span>
+                </div>
+                <div class="group-arrows">
+                  <button
+                    class="carousel-btn"
+                    data-slider="group-track"
+                    data-direction="-1"
+                    aria-label="Oldingi guruhdosh"
+                  >
+                    ←
+                  </button>
+                  <button
+                    class="carousel-btn"
+                    data-slider="group-track"
+                    data-direction="1"
+                    aria-label="Keyingi guruhdosh"
+                  >
+                    →
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="section-title section-title--light">
+            <span class="section-num">04</span> Mening loyihalarim
+          </h2>
+          <p class="section-sub section-sub--light">
+            O'rganish davomida yasagan ishlarim.
+          </p>
+
+          <div class="proj-grid">
+            <a
+              class="proj-card"
+              href="https://stream-vib.vercel.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="proj-card__img">
+                <img src="./image.png" alt="Plitki" />
+              </div>
+              <div class="proj-card__body">
+                <span class="proj-tag">01</span>
+                <h3>StreamVib</h3>
+                <p>StreamVib web sayti</p>
+              </div>
+            </a>
+
+            <a
+              class="proj-card"
+              href="https://figma-delta-bay.vercel.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="proj-card__img">
+                <img src="./image copy.png" alt="figma" />
+              </div>
+              <div class="proj-card__body">
+                <span class="proj-tag">02</span>
+                <h3>LaslesVPN</h3>
+                <p>VPN</p>
+              </div>
+            </a>
+
+            <a
+              class="proj-card"
+              href="https://plantify-sepia.vercel.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="proj-card__img">
+                <img src="./image copy 2.png" alt="plantify" />
+              </div>
+              <div class="proj-card__body">
+                <span class="proj-tag">03</span>
+                <h3>plantify</h3>
+                <p>plantify web sayti</p>
+              </div>
+            </a>
+
+            <a
+              class="proj-card"
+              href="https://retcars.vercel.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="proj-card__img">
+                <img src="./image copy 3.png" alt="car" />
+              </div>
+              <div class="proj-card__body">
+                <span class="proj-tag">03</span>
+                <h3>Rencars</h3>
+                <p>moshina hahida web sayt</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact__title">
+            Men, <span>bilan</span><br />
+            bog'laning
+          </h2>
+
+          <div class="contact__grid">
+            <div class="contact__links">
+              <a href="#top">Bosh sahifa</a>
+              <a href="#about">Men haqimda</a>
+              <a href="#family">Oilam</a>
+              <a href="#group">Guruhim</a>
+              <a href="#projects">Loyihalarim</a>
+            </div>
+
+            <div class="contact__info">
+              <a class="contact__big" href="tel:+998777415004"
+                >+998 777 41 50 04</a
+              >
+              <a class="contact__big" href="mailto:ivan777415004@gmail.com"
+                >niyoz@gmail.com</a
+              >
+
+              <ul class="social">
+                <li class="xxx">
+                  <a href="#" aria-label="Facebook">
+                    <svg
+                      viewBox="0 0 320 512"
+                      height="1.1em"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="xxx">
+                  <a href="#" aria-label="Twitter">
+                    <svg height="1.1em" fill="currentColor" viewBox="0 0 48 48">
+                      <path
+                        d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="xxx">
+                  <a href="#" aria-label="Instagram">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="1.1em"
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact__bottom">
+            <span>&copy; 2026 Muhammadali. Barcha huquqlar himoyalangan.</span>
+            <span>Tashkent, O'zbekiston</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
